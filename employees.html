@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="logo-crop.ico">
+        <title>Employees | Hot Beans</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/d18594eedb.js" crossorigin="anonymous"></script>
+        <style>
+            header {
+                padding-top: 0px;
+                margin: 0;
+                background-color: #fff3c9;
+                width: auto;
+                padding-bottom: 30px;
+                padding-top: 20px;
+                border-bottom: ridge;
+                border-bottom-width: thick;
+                border-bottom-color: saddlebrown;
+            }
+
+            body {
+                background-image: url("images/background2.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            .blur {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                padding: 0;
+                margin: 0;
+                z-index: -99;
+                backdrop-filter: blur(10px);
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-position-y: -100px;
+            }
+        
+        </style>
+    </head>
+    <body class="blur">
+        <header>
+            <div class="navigation">
+                <button class="hamburger" onclick="show()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </button>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="employees.html">Employees</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="apply.html">Apply Here</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <center>
+                <img src="logo-crop.ico" alt="Logo" width="15%" />
+            </center>
+        </header>
+        <main>
+            <section class="employee-container">
+                <div class="employee-card">
+                    <img src="images/philip.jpg" alt="Photo of Philip Heinz" class="employee-photo" width="50%">
+                    <h2>Philip Heinz</h2>
+                    <p>Position: CEO and Founder</p>
+                    <p>Description: Phillip Heinz is the founder and CEO of Hot Beans Web. He started the company in 2010 and grew it to what it is today, being in charge of all operations and he is the majority shareholder.</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/james.jpg" alt="Photo of James Beckett" class="employee-photo">
+                    <h2>James Beckett</h2>
+                    <p>Position: Senior Manager</p>
+                    <p>Description: James Beckett is the senior manager and is in charge of the web development team. He has been with the company since start-up and his main role is to supervise the web developers and make recruitment decisions.</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/max.jpg" alt="Photo of Max Riaz" class="employee-photo">
+                    <h2>Max Riaz</h2>
+                    <p>Position: Web Designer</p>
+                    <p>Description: Max Riaz was one of the first developers to join the company in 2011, and has been a crucial asset to the growth of the company and has provided a lot of insightful information, attributed to his Bachelors in Software Engineering. </p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/vicky.jpg" alt="Photo of Vicky Waller" class="employee-photo">
+                    <h2>Vicky Waller</h2>
+                    <p>Position: Junior Web Designer</p>
+                    <p>Description: Vicky Waller is a junior web developer, who is working under Max Riaz and has recently joined us during the 2020 Covid-19 pandemic and has been involved in many different and important projects. </p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/dylan.jpg" alt="Photo of Dylan Hermes" class="employee-photo">
+                    <h2>Dylan Hermes</h2>
+                    <p>Position: Trainee Web Designer</p>
+                    <p>Description: Dylan Hermes is a trainee web developer who has just graduated and joined from a Level 3 IT Diploma and is currently learning the operations of the business from his colleagues.</p>
+                </div>
+                <!-- Add more employee cards as needed -->
+            </section>
+        </main>
+    </body>
+</html>

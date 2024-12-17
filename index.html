@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Home | Hot Beans</title>
+    <link rel="icon" type="image/x-icon" href="logo-crop.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d18594eedb.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            padding-top: 0px;
+            margin: 0;
+            background-color: #fff3c9;
+            width: auto;
+            padding-bottom: 30px;
+            padding-top: 20px;
+            border-bottom: ridge;
+            border-bottom-width: thick;
+            border-bottom-color: saddlebrown;
+        }
+        .main{
+            opacity: 0;
+            transition: opacity 1s ease;
+    </style>
+</head>
+<body>
+    <header>
+    <div class="navigation">
+        <button class="hamburger" onclick="show()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a>Courses</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="apply.html">Apply Here</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <center>
+        <img src="logo-crop.ico" alt="Logo" width="15%" />
+    </center>
+    </header>
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Building the Future of the Web</h1>
+                <h2>One Pixel at a Time</h2>
+                <p>See what makes us different:</p>
+                <button class="main_btn"><a href="aboutUs.html">Find Out More</a></button>
+            </div>
+            <div class="main-img-container">
+                <img src="images/landing.svg" />
+            </div>
+        </div>
+    </div>
+    <script>
+        const mainDiv = document.querySelector('.main');
+        window.onload = () => {
+            mainDiv.style.opacity = 1; 
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿body {
+    font-family: Coolvetica, sans-serif;
+    margin: 0;
+    background-color: #fffae7;
+    color: #333;
+}
+
+header {
+    background-color: #fff3c9;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.employee-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.employee-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.employee-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff3c9;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

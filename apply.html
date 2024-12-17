@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo-crop.ico">
+    <title>Apply Here | Hot Beans</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d18594eedb.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            padding-top: 0px;
+            margin: 0;
+            background-color: transparent;
+            width: auto;
+            padding-bottom: 30px;
+            padding-top: 20px;
+            border-bottom: ridge;
+
+        }
+
+        button {
+            background-color: #fff3c9;
+            border: transparent solid 2px;
+            color: white;
+            border-radius: 8px;
+        }
+
+        button:hover{
+            background-color: saddlebrown;
+            transition: 0.3s ease-out;
+            cursor: pointer;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <button class="hamburger" onclick="show()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </button>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="employees.html">Employees</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="apply.html">Apply Here</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <center>
+            <img src="logo-crop.ico" alt="Logo" width="15%" />
+        </center>
+    </header>
+   <div class="container">
+       <div class="apply-box">
+           <h1> Apply with Us: <span class="title">(Web Form) </span></h1>
+
+           <form action="">
+               <div class="form-container">
+                   <div class="form-control">
+                       <label for="fname">First Name </label>
+                       <input type="text" id="fname" name="first-name" placeholder="Enter first name" />
+                   </div>
+
+                   <div class="form-control">
+                       <label for="sname">Surname </label>
+                       <input type="text" id="sname" name="surname" placeholder="Enter surname" />
+                   </div>
+
+                   <div class="form-control">
+                       <label for="email">Email</label>
+                       <input type="text" id="email" name="email" placeholder="Enter email" />
+                   </div>
+
+                 
+
+                   <div class="form-control">
+                       <label for="jobRole">Role:</label>
+                       <select name="jobRole" id="jobRole">
+                           <option value="">Select Role</option>
+                           <option value="Junior Web Developer">Junior Web Developer</option>
+                           <option value="Senior Web Developer">Senior Web Developer</option>
+                           <option value="Web Analyst">Web Analyst</option>
+                       </select>
+
+
+                   </div>
+                        <div class="textarea-control">
+                           <label for="address">Address</label>
+                           <textarea name="address" id="" cols="30" rows="10" placeholder="Enter address"></textarea>
+                       </div>
+                       <div class="form-control">
+                           <label for="city">City</label>
+                           <input type="text" id="city" name="city" placeholder="Enter city" />
+                       </div>
+                   <div class="form-control">
+                       <label for="postcode">Postal Code</label>
+                       <input type="text" id="postcode" name="postcode" placeholder="Enter postal code" />
+                   </div>
+                   
+                   <div class="form-control">
+                        <label for="dob">DoB</label>
+                        <input type="date" id="dob" name="dob" />
+                    </div>
+
+                   <div class="form-control">
+                       <label for="cv">Upload CV</label>
+                       <input type="file" id="cv" name="CV"/>
+                   </div>
+
+                   <div class="button-container">
+                       <button type="submit" onclick="window.location.href='ty.html'">Apply Now</button>
+                   </div>
+                   </div>
+           </form>
+       </div>
+   </div>
+</body>
+</html>
